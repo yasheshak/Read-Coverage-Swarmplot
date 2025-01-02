@@ -8,7 +8,7 @@ parser = argparse.ArgumentParser()
 
 parser.add_argument('-i', '--identityFile', default="BME163_Input_Data_4.ident", type=str, action='store', help='input identity file')
 parser.add_argument('-c', '--coverageFile', default="BME163_Input_Data_4.cov", type=str, action='store', help='input coverage file')
-parser.add_argument('-o', '--outFile', default='Kothari_Yashesha_BME163_Assignment_Week4.png', type=str, action='store', help='output file for figure')
+parser.add_argument('-o', '--outFile', default='indentity_coverage_swarmplot.png', type=str, action='store', help='output file for figure')
 
 args = parser.parse_args()
 
